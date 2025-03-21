@@ -1,6 +1,6 @@
-# **Kort Language**
+# <span style="color: #ff6f61;">**Kort Language**</span>
 
-## **Introduction**
+## <span style="color: #42a5f5;">**Introduction**</span>
 
 Welcome to **Kort**, a beginner-friendly, transpiler-based programming language designed to simplify development while providing powerful capabilities. Kort is ideal for creating simple to complex applications across multiple platforms, including desktops, custom smartphones, and IoT devices.
 
@@ -8,7 +8,7 @@ Kort's most exciting feature is its automatic transpilation. The Kort code you w
 
 ---
 
-## **Kort Language Series**
+## <span style="color: #ffb300;">**Kort Language Series**</span>
 
 ### **Kort (Basic Version)**
 
@@ -19,7 +19,7 @@ Kort's most exciting feature is its automatic transpilation. The Kort code you w
 - **Dynamic typing**: No need to declare types for variables.
 - **Transpiler-based**: Code is automatically converted to Python or C, depending on the platform.
 
-**Example:**
+#### **Example:**
 ```kort
 x = 5  # Integer assignment
 y = 3.14  # Real number assignment
