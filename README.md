@@ -1,27 +1,73 @@
-# <span style="color: #ff6f61;">**Kort Language**</span>
+# 🎯 KORT IDE 🚀  
+#### **A Powerful & Smart IDE for the Kort Programming Language**  
 
-## <span style="color: #42a5f5;">**Introduction**</span>
-
-Welcome to **Kort**, a beginner-friendly, transpiler-based programming language designed to simplify development while providing powerful capabilities. Kort is ideal for creating simple to complex applications across multiple platforms, including desktops, custom smartphones, and IoT devices.
-
-Kort's most exciting feature is its automatic transpilation. The Kort code you write is automatically converted to Python, C, or other suitable languages based on the platform you’re using. Kort eliminates the need for you to worry about underlying languages, letting you focus on developing solutions.
+![Kort Version](https://img.shields.io/badge/Kort-Language-blue?style=for-the-badge)  
+![IDE Version](https://img.shields.io/badge/IDE-v1.0-green?style=for-the-badge)  
+![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)  
 
 ---
 
-## <span style="color: #ffb300;">**Kort Language Series**</span>
+## **✨ What is Kort?**  
+Kort is a **beginner-friendly programming language** that follows a **procedural approach** with support for **mathematical computations, physics simulations, and automation**. It is **transpiler-based**, meaning it converts into Python, C, or other languages based on system compatibility.  
 
-### **Kort (Basic Version)**
+The **Kort IDE** is a **modern, intelligent development environment** that provides a **rich feature set** with built-in AI enhancements and seamless **transpilation support**.
 
-**Target Audience**: Beginners, hobbyists, and educational users
+---
 
-**Features**:
-- **Simple syntax**: Easy-to-learn, similar to Python.
-- **Dynamic typing**: No need to declare types for variables.
-- **Transpiler-based**: Code is automatically converted to Python or C, depending on the platform.
+## **🚀 Features of Kort IDE**  
 
-#### **Example:**
+### 🔹 **General Features**
+✔ **VS Code Compatibility**  
+✔ **Auto-detection of Installed Languages**  
+✔ **Built-in Compiler & Transpiler**  
+✔ **Smart Auto-Suggestions for Syntax Errors**  
+✔ **Google Drive Cloud Support** (*PC only*)  
+✔ **GitHub & GitLab Integration**  
+
+### 🎨 **UI & Design**
+✔ **Dark & Light Theme**  
+✔ **Syntax Highlighting**  
+✔ **Bracket Auto-Completion**  
+✔ **Floating Command Palette**  
+
+### 📂 **File Handling**
+✔ **Supported File Types:** `.kort`, `.txt`, `.csv`, `.py`, `.c`, `.html`, `.env`, `.pdf`  
+✔ **New File Syntax:** `file.new["path", "filename", "<extension>"]`  
+✔ **Read File:** `file.read[<path>, <filename.extension>]`  
+✔ **Write File:** `file.write[<path>, <filename.extension>]`  
+✔ **Delete File:** `file.delete[<path>, <filename.extension>]`  
+
+### 🔢 **Mathematics & Physics Libraries**
+✔ **Maths Library:** (`from maths import limits, integration`)  
+✔ **Physics Library:** (`from phys import mechanics, optics`)  
+✔ **Supports Real, Rational, Irrational, Integer, Complex Numbers**  
+✔ **Auto-conversion of Scientific Notation** (e.g., `5 × 10^(-14)`)  
+
+### ⚙ **Transpilation & Execution**
+✔ **Auto-Detects Available Languages**  
+✔ **Optimized Code Conversion**  
+✔ **Error Handling with Detailed Logs**  
+✔ **Saves Code in the Transpiled Language Format**  
+
+### 🛠 **Debugging & Logs**
+✔ **Built-in Syntax Checker & Debugger**  
+✔ **Error Logs Saved as `.txt` Files**  
+✔ **Reminder System for Logs (Max 7 Days Delay)**  
+
+---
+
+## **📌 Getting Started**
+### **🔽 Installation**  
+1️⃣ **Download the Latest Release** from the [GitHub Releases](#) page.  
+2️⃣ **Extract & Install** the package.  
+3️⃣ **Run the IDE & Start Coding!**  
+
+---
+## **📜 Example Code in Kort**
 ```kort
-x = 5  # Integer assignment
-y = 3.14  # Real number assignment
-name = 'John'  # String assignment
-prt['Hello, World!']  # Output
+from maths import limits
+
+def f[x] = x^2 + 3x - 5
+prt["Limit of f[x] as x → 2: ", limits.solve[f, x→2]]
+
+# output: Limit of f[x] as x → 2: 5
