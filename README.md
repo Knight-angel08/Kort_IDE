@@ -12,6 +12,47 @@ Kort is a **beginner-friendly programming language** that follows a **procedural
 
 The **Kort IDE** is a **modern, intelligent development environment** that provides a **rich feature set** with built-in AI enhancements and seamless **transpilation support**.
 
+
+# Kort Language and Versions
+
+## 1. **Kort (Basic Version)**
+- **Target Audience**: Beginners and simple application developers.
+- **Key Features**:
+  - **Syntax**: Python-like with dynamic typing and indentation-based structure.
+  - **Programming Paradigm**: Procedural programming with basic functions, conditionals (`elif`), and loops (`for`, `while`).
+  - **Transpiler-based**: Automatically converts code to appropriate languages (like Python or C) based on the device.
+  - **Output**: Uses `prt` instead of `print` (e.g., `prt["Hello World"]`).
+  - **Mathematical Constants**: Supports constants like Pi (π), Euler’s number (𝑒), and others.
+  - **Standard Library**: Includes basic functions for math, lists, time, and file handling.
+
+## 2. **Kort+<version> (Intermediate Version)**
+- **Target Audience**: Intermediate programmers seeking a balance between simplicity and advanced features.
+- **Key Features**:
+  - **Advanced Libraries**: More complex libraries than the basic version for handling advanced tasks.
+  - **Intermediate Concepts**: Access to more advanced features, allowing for greater flexibility and control over programming.
+  - **Additional Modules**: Expands Kort’s functionality with additional tools for various domains like networking, databases, and more.
+
+## 3. **Kort_surface (Optimized for Surface Devices)**
+- **Target Audience**: Developers working on applications for touch-based devices (e.g., tablets, smartphones).
+- **Key Features**:
+  - **Touchscreen UI**: Focused on creating applications that interact with users through touch-based interfaces.
+  - **Surface-Specific Libraries**: Provides tools for responsive UI design and touch gestures.
+  - **UI Optimization**: Optimized for creating applications that work seamlessly on touchscreens and small displays.
+
+## 4. **Kort_edge (Optimized for Edge Devices)**
+- **Target Audience**: Developers working on embedded or edge devices with limited resources.
+- **Key Features**:
+  - **Performance Optimizations**: Focuses on efficient code execution for devices with limited processing power and memory.
+  - **Edge-Specific Libraries**: Tools for integrating with sensors, hardware components, and real-time systems.
+  - **Resource-Constrained Development**: Prioritizes minimal overhead and high performance for edge computing environments.
+
+## 5. **Kort_X (Most Advanced Version)**
+- **Target Audience**: Advanced developers working on complex systems, including OS development, IoT, and AI.
+- **Key Features**:
+  - **AI-Powered Features**: AI-enhanced suggestions in the IDE for code completion, intelligent refactoring, and auto-fixes.
+  - **Full-Spectrum Development**: Supports all types of programming, including OS development, AI, hardware integration, and IoT.
+  - **Complex Code Support**: Enables the creation of large, scalable projects with advanced programming paradigms.
+  - **Comprehensive Libraries**: Includes extensive libraries and modules for specialized tasks across different domains.
 ---
 
 ## **🚀 Features of Kort IDE**  
